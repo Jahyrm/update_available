@@ -15,7 +15,7 @@
 
  ```yaml
  dependencies:
-    update_available: ^2.0.0
+    update_available: ^2.2.1
  ```
 
  Update your packages with `flutter pub get`.
@@ -65,7 +65,7 @@ These are the two packages that I came through when looking for a solution for u
 
  * Both of them provided user interfaces regarding the availability.
  * `upgrader` is not reliable when dealing with Android unless you use Appcast.
- * I wanted the bare minimum neccessary.
+ * I wanted the bare minimum necessary.
 
 So, `update_available` is better fit to you if:
  * You want support for both iOS and Android.
